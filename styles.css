@@ -1,11 +1,38 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 main{
-    display: grid;
+    display: grid
 }
 
+/* Header */
+
 header{
-    background: aqua;
+    height: 80px;
+    background: rgb(18, 79, 104);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.menu-link{
+    color: black;
+    text-decoration: none;
+    
+}
+
+.menu-link:hover{
+    color: grey;
+    transition: all ease 0.8s;
+    text-decoration: none;
+}
+
+img{
+    height: 80px;
+}
+
+body{
+
 }
